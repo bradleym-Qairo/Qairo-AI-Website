@@ -484,6 +484,29 @@ a { color: var(--copper); text-decoration: none; }
   margin: 0 auto 44px;
 }
 
+.cta-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.cta-divider {
+  font-family: var(--font-head);
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.cta-note {
+  font-size: 14px;
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* ===== Footer ===== */
 
 .footer {
@@ -553,4 +576,7 @@ a { color: var(--copper); text-decoration: none; }
   .hero-actions .btn { width: 100%; text-align: center; }
 
   .faq-item summary { font-size: 17px; }
+
+  .cta-contact { width: 100%; }
+  .cta-contact .btn { width: 100%; }
 }
