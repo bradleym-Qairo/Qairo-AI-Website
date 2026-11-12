@@ -30,3 +30,24 @@ visible box.
 - Fonts load from Google Fonts: **Jost** (headings) and **Inter** (body).
 - Contact email used throughout: `bradleym@qairoai.com`.
 - Anchor sections: `#about`, `#how`, `#services`, `#faq`, `#contact`.
+
+## Internal assistant application pages
+
+- Application homepage: https://qairoai.com/agent/
+- Privacy Policy: https://qairoai.com/privacy/
+- Terms of Service: https://qairoai.com/terms/
+
+These standalone pages are publicly accessible without authentication but are
+not linked from the marketing homepage. Each requests `noindex, nofollow`;
+this discourages search-engine indexing, not access by people with the URLs.
+The application homepage links to both policies for OAuth application review.
+Use `/agent/` as the application homepage, not the general marketing page.
+
+The legal pages were already published on 5 November 2026. Their substantive
+wording is unchanged by the application-homepage addition. Before submitting
+for Google verification, confirm the OAuth consent-screen app name, requested
+scopes and actual provider/data-handling arrangements match the published
+disclosures. In particular, verify the existing statements about model training,
+token storage, retention and human access; publication is not a compliance audit
+or a guarantee of Google approval. These pages cover the assistant, not new
+commercial terms for client deployments.
